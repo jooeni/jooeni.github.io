@@ -1,0 +1,96 @@
+body {
+    /*background: linear-gradient(0deg, rgba(255,216,0,1) 0%, rgba(255,42,159,1) 53%, rgba(255,0,84,1) 100%);*/
+    background-color: #ff0048;
+}
+.images {
+    display: none;
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+.images img {
+    border: 20px solid black;
+    border-radius: 10px;
+    box-shadow: 15px 10px #333;
+}
+.right {
+    right: 0;
+    transform: rotate(0.5turn);
+}
+.right, .left {
+  position: absolute;
+  top: 30%;
+  padding: 16px;
+  width: 40px;
+  height: auto;
+}
+.cursor {
+    cursor: pointer;
+}
+.image-text {
+    text-align: center;
+    background-color: black;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    position: relative;
+    max-width: 100%;
+    margin-top: 115px;
+    font-family: 'Sofia';
+    font-size: 19px;
+  }
+.column {
+    width: 100%;
+    margin-top: 10px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+.thumb {
+    padding: 30px; 
+   }
+.links a:link, .links a:visited, .links a:hover, .links a:active {
+       font-family: 'Sofia';
+       color: white;
+       text-decoration: none;
+       font-size: 30px;
+   }
+.google {
+       position: absolute;
+       margin-top: 300px;
+       margin-left: 920px;
+   }
+.w3 {
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 900px;
+}
+.unsplash {
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.fox {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 10px;
+}
+.color {
+    position: absolute;
+    margin-top: 410px;
+    margin-left: 230px;
+}
+p {
+    font-family: 'Sofia';
+    color: white;
+}
+#fox, #unsplash, #color, #w3school, #google {
+    line-height: 1.2;
+}
+
+
+

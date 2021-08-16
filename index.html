@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#MyFirstApp Coding Camp Gallery</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<div class="links">  
+    <div class="google">
+        <h3 id="google"> <a href="https://fonts.google.com/specimen/Sofia?query=sofia" target="_blank">Google Fonts</a>
+            <p><em>(This app is using Sofia font from Google Fonts)</em></p> 
+        </h3>
+    </div>
+    <div class="fox">
+        <h3 id="fox"> <a href="https://www.greenfoxacademy.com/my-first-app-coding-camp" target="_blank">GreenFox Academy</a>
+            <p><em>(#MyFirstApp Coding Camp:<br> this is the last task) </em></p> 
+        </h3>
+    </div>
+    <div class="unsplash"><h3 id="unsplash"> <a href="https://unsplash.com/"   target="_blank">Unsplash</a> 
+        <p><em>(Pictures in the gallery)</em></p>
+    </h3>
+    </div>
+    <div class="color"><h3 id="color"> <a href="https://htmlcolorcodes.com/color-names/"   target="_blank"><em>#ff0048</em></a> 
+        <p><em>(Background color)</em></p> 
+    </h3>   
+    </div>
+    <div class="w3"><h3 id="w3school"> <a href="https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp" target="_blank">W3schools</a>  
+        <p><em>(The gallery is based on this tutorial)</em></p>
+    </h3>
+    </div>
+</div>
+
+        <div class="images">
+            <a href="https://unsplash.com/photos/gIVzDR6JRWc" target="_blank"> <img src="./images/texture01.jpg" style="width:100%"> </a>
+        </div>
+        <div class="images">
+            <a href="https://unsplash.com/photos/73LVfWy-t0A" target="_blank"> <img src="./images/texture02.jpg" style="width:100%"> </a>
+        </div>
+        <div class="images">
+            <a href="https://unsplash.com/photos/CWX9yr8Abxo" target="_blank">  <img src="./images/texture03.jpg" style="width:100%"> </a>
+        </div>
+        <div class="images">
+            <a href="https://unsplash.com/photos/t2cp_cWMo3o" target="_blank">  <img src="./images/texture04.jpg" style="width:100%"> </a>
+        </div>
+        <div class="images">
+            <a href="https://unsplash.com/photos/EhATczmB9Kg" target="_blank"> <img src="./images/texture05.jpg" style="width:100%"> </a>
+        </div>
+        <div class="images">
+            <a href="https://unsplash.com/photos/JcoZbI7Ve1Q" target="_blank"> <img src="./images/texture06.jpg" style="width:100%"> </a>
+        </div>
+        <div class="images">
+            <a href="https://unsplash.com/photos/SvGzLn7y_sw" target="_blank"> <img src="./images/texture07.jpg" style="width:100%"> </a>
+        </div>
+
+        <a class="left cursor" onclick="plusSlides(-1)"><img id="arrow_left" src="./images/arrow.svg"></a>
+        <a class="right cursor" onclick="plusSlides(1)"><img id="arrow_right" src="./images/arrow.svg"></a>
+
+        <div class="image-text">
+            <p id="text"></p>
+        </div>
+
+        <div class="row">
+            <div class="column">
+              <img class="thumb cursor" src="./images/texture01.jpg" style="width:100%" onclick="currentSlide(1)" alt="Abstract Painting Photo by Jon Tyson (on Unsplash)">
+           
+              <img class="thumb cursor" src="./images/texture02.jpg" style="width:100%" onclick="currentSlide(2)" alt="White and Grey Illustration by Jason Leung (on Unsplash)">
+            
+              <img class="thumb cursor" src="./images/texture03.jpg" style="width:100%" onclick="currentSlide(3)" alt="Black Sketches by Jon Tyson (on Unsplash)">
+           
+              <img class="thumb cursor" src="./images/texture04.jpg" style="width:100%" onclick="currentSlide(4)" alt="White and Red Labeled Book by Jon Tyson (on Unsplash)">
+           
+              <img class="thumb cursor" src="./images/texture05.jpg" style="width:100%" onclick="currentSlide(5)" alt="Two Black and White Birds Perching on Tree Branch Photo by McGill Library (on Unsplash)">
+            
+              <img class="thumb cursor" src="./images/texture06.jpg" style="width:100%" onclick="currentSlide(6)" alt="Two Blue Birds Painting by McGill Library (on Unsplash)">
+           
+                <img class="thumb cursor" src="./images/texture07.jpg" style="width:100%" onclick="currentSlide(7)" alt="Birds Flying Over Body of Water Painting Photo by Boston Public Library (on Unsplash)">
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts.js"></script>    
+</body>
+</html>
